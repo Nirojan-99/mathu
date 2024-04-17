@@ -7,13 +7,11 @@ import Client from "./Client";
 export default function Pages() {
   return (
     <>
-      <Header />
       <Routes>
         <Route path="/admin" element={<Admin />} />
         <Route path="/client" element={<Client />} />
         <Route path="/" element={<Navigate to={"/client"} />} />
       </Routes>
-      <Footer />
     </>
   );
 }

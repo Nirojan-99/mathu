@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import "./App.css";
-import Formtable from "./components/Formtable";
+import "../App.css";
+import Formtable from "../components/Formtable";
 import jsPDF from "jspdf";
 import "jspdf-autotable";
 
